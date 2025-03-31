@@ -7,7 +7,7 @@ year: 2024
 slug: "koh-kong-independence-day-marathon"
 images:
   - media/events/koh_kong_independence_day_marathon/koh_kong_independence_day_marathon1.jpg
-  - media/events/koh_kong_independence_day_marathon/koh_kong_independence_day_marathon2.jpg
+  - media/events/koh_kong_independence_day_marathon/koh_kong_independence_day_marathon2.JPG
   - media/events/koh_kong_independence_day_marathon/koh_kong_independence_day_marathon3.jpg
   - media/events/koh_kong_independence_day_marathon/koh_kong_independence_day_marathon4.jpg
   - media/events/koh_kong_independence_day_marathon/koh_kong_independence_day_marathon5.jpg

@@ -62,7 +62,7 @@ images:
 - **Running Ticket Fee**: 10KM = 15$ , 21KM = 20$ (To be discussed) 
 - **Date**: 1st May - 1st June 2025
 - **Location**: Anywhere / National Olympic Stadium 
-- **To register**: buy the ticket via BM+ app or runwithsai.com website
+- **To register**: buy the ticket via <a href='https://www.bookme.plus/t/events/run-by-heart-2nd-edition' target="_blank" rel="noopener">BookMe+ App</a> or <a href='https://runwithsai.com' target="_blank" rel="noopener">runwithsai.com</a> website
 
 
 📌 RUNNING PACKAGES:
@@ -121,7 +121,7 @@ Please join our telegram group after you donated to Rabbit School. Our team will
 - **Running Ticket Fee**: 10KM = 15$ , 21KM = 20$ (To be discussed) 
 - **Date**: 1st May - 1st June 2025
 - **Location**: Anywhere / National Olympic Stadium 
-- **To register**: buy the ticket via BM+ app or runwithsai.com website
+- **To register**: buy the ticket via <a href='https://www.bookme.plus/t/events/run-by-heart-2nd-edition' target="_blank" rel="noopener">BookMe+ app</a> or <a href='https://runwithsai.com' target="_blank" rel="noopener">runwithsai.com</a> website
 
 
 📌 RUNNING PACKAGES:

@@ -67,63 +67,72 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-   // Function to open the image modal and display the selected image
-   function openImageModal(sectionName, index) {
-    const modalElement = document.getElementById(`imageModal${sectionName}`);
-    const images = JSON.parse(modalElement.getAttribute('data-images'));
+// Global variable to store current images and index
+let currentImages = {};
+let currentIndices = {};
 
-    // Set the current index to the clicked image index
-    currentIndex = parseInt(index);
-
-    // Update the modal image and counter
-    updateModalImage(sectionName, images);
-
-    // Show the modal
-    const modal = new bootstrap.Modal(modalElement);
-    modal.show();
-  }
-
-  // Function to update the modal image and counter
-  function updateModalImage(sectionName, images) {
-    if (currentIndex >= 0 && currentIndex < images.length) {
-      // Update the image source
-      document.getElementById(`modalImage${sectionName}`).src = images[currentIndex];
-
-      // Display the current image index (1-based)
-      document.getElementById(`imageCount${sectionName}`).innerText = `${currentIndex + 1} / ${images.length}`;
-    }
-  }
-
-  // Function to navigate to the previous image
-  function prevImage(sectionName) {
-    const modalElement = document.getElementById(`imageModal${sectionName}`);
-    const images = JSON.parse(modalElement.getAttribute('data-images'));
-
-    if (currentIndex > 0) {
-      currentIndex--;
-      updateModalImage(sectionName, images);
-    }
-  }
-
-  // Function to navigate to the next image
-  function nextImage(sectionName) {
-    const modalElement = document.getElementById(`imageModal${sectionName}`);
-    const images = JSON.parse(modalElement.getAttribute('data-images'));
-
-    if (currentIndex < images.length - 1) {
-      currentIndex++;
-      updateModalImage(sectionName, images);
-    }
-  }
-
-  // Initialize the modal when the page loads
-  document.addEventListener("DOMContentLoaded", function () {
-    const modalElement = document.getElementById('imageModalevent-gallery');
-    if (modalElement) {
-      const images = JSON.parse(modalElement.getAttribute('data-images'));
-      if (images.length > 0) {
-        currentIndex = 0;
-        updateModalImage('event-gallery', images);
-      }
-    }
+// Function to open the image modal
+function openImageModal(eventSlug, index) {
+  // Get all images for this event from the DOM
+  const modalElement = document.getElementById(`imageModal-${eventSlug}`);
+  const images = [];
+  
+  // Find all images in the event's container
+  const eventContainer = modalElement.closest('[aria-label="event-container"]');
+  const imageElements = eventContainer.querySelectorAll('img[src^="media/events"]');
+  
+  imageElements.forEach(img => {
+    images.push(img.src);
   });
+
+  // Store images and current index for this event
+  currentImages[eventSlug] = images;
+  currentIndices[eventSlug] = parseInt(index);
+
+  // Update the modal image and counter
+  updateModalImage(eventSlug);
+  
+  // Show the modal
+  const modal = new bootstrap.Modal(modalElement);
+  modal.show();
+}
+
+// Function to update the modal image
+function updateModalImage(eventSlug) {
+  const images = currentImages[eventSlug];
+  const currentIndex = currentIndices[eventSlug];
+  
+  if (currentIndex >= 0 && currentIndex < images.length) {
+    // Update the image source
+    document.getElementById(`modalImage-${eventSlug}`).src = images[currentIndex];
+    
+    // Display the current image index (1-based)
+    document.getElementById(`imageCount-${eventSlug}`).innerText = 
+      `${currentIndex + 1} / ${images.length}`;
+  }
+}
+
+// Function to navigate to the previous image
+function prevImage(eventSlug) {
+  const images = currentImages[eventSlug];
+  let currentIndex = currentIndices[eventSlug];
+  
+  if (currentIndex > 0) {
+    currentIndex--;
+    currentIndices[eventSlug] = currentIndex;
+    updateModalImage(eventSlug);
+  }
+}
+
+// Function to navigate to the next image
+function nextImage(eventSlug) {
+  const images = currentImages[eventSlug];
+  let currentIndex = currentIndices[eventSlug];
+  
+  if (currentIndex < images.length - 1) {
+    currentIndex++;
+    currentIndices[eventSlug] = currentIndex;
+    updateModalImage(eventSlug);
+  }
+}
+

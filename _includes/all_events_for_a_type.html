@@ -1,3 +1,4 @@
+<!-- _includes/all_events_for_a_type.html -->
 <div class="tab-pane fade {% if id == 'upcoming-events' %}show active{% endif %}" 
      id="{{ id }}" role="tabpanel" aria-labelledby="{{ id }}-tab">
   {% for section in sections %}
@@ -5,6 +6,7 @@
       <div class="pt-4">
         {% for event in section.items %}
           {% assign images = event.images | default: empty %}
+          {% assign event_slug = event.slug | default: event.title | slugify %}
 
           <div class="row" aria-label="event-container">
             <div class="col-sm-12 col-md-8">
@@ -15,29 +17,14 @@
                 {{ event.content | markdownify }}
               </div>
               
-              <a href="{{ site.baseurl }}/events/{{ event.slug | default: event.title | slugify }}" class="btn btn-link p-0 text-primary d-inline-block mb-3">
+              <a href="{{ site.baseurl }}/events/{{ event_slug }}" class="btn btn-link p-0 text-primary d-inline-block mb-3">
                 Read more
               </a>
 
               {% if images.size > 0 %}
-                {% include images.html %}
+                {% include images.html images=images event_slug=event_slug %}
               {% endif %}
             </div>
-
-            {% if images.size > 0 %}
-              <div id="imageModal{{ section.name }}" class="modal fade" tabindex="-1" aria-hidden="true" data-images='{{ images | jsonify }}'>
-                <div class="modal-dialog modal-dialog-centered modal-lg">
-                  <div class="modal-content bg-transparent border-0">
-                    <div class="modal-body position-relative p-0 text-center">
-                      <img id="modalImage{{ section.name }}" src="" class="img-fluid rounded modal-img" />
-                      <i class="bx bx-chevron-left nav-arrow left-arrow" onclick="prevImage('{{ section.name }}')"></i>
-                      <i class="bx bx-chevron-right nav-arrow right-arrow" onclick="nextImage('{{ section.name }}')"></i>
-                      <span id="imageCount{{ section.name }}" class="image-counter"></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            {% endif %}
           </div>
         {% endfor %}
       </div>

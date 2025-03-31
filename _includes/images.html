@@ -1,3 +1,4 @@
+<!-- _includes/images.html -->
 <div class="mt-4">
   <div class="row row-cols-2 g-3">
     {% assign total_images = images | size %}
@@ -6,10 +7,10 @@
       {% if forloop.last and total_images > 4 %}
         <div class="col-md-6 mb-3">
           <div class="image-container">
-            <img src="{{ image }}" alt="Event Image 4" class="img-fluid rounded"/>
-            <div class="image-overlay" onclick="openImageModal('{{ section.name }}', '{{ index }}')">
+            <img src="{{ image }}" alt="Event Image {{ forloop.index }}" class="img-fluid rounded"/>
+            <div class="image-overlay" onclick="openImageModal('{{ event_slug }}', '{{ index }}')">
               <h4 class="text-white mb-0">
-                +<span id="remainingCount">{{ total_images | minus: 4 }}</span>
+                +<span class="remaining-count">{{ total_images | minus: 4 }}</span>
                 <i class="bx bx-camera ms-2"></i>
               </h4>
             </div>
@@ -17,9 +18,23 @@
         </div>
       {% else %}
         <div class="col">
-          <img src="{{ image }}" alt="Event Image" class="img-fluid rounded" onclick="openImageModal('{{ section.name }}', '{{ index }}')" />
+          <img src="{{ image }}" alt="Event Image {{ forloop.index }}" class="img-fluid rounded" onclick="openImageModal('{{ event_slug }}', '{{ index }}')" />
         </div>
       {% endif %}
     {% endfor %}
+  </div>
+</div>
+
+<!-- Image Modal for this specific event -->
+<div id="imageModal-{{ event_slug }}" class="modal fade" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content bg-transparent border-0">
+      <div class="modal-body position-relative p-0 text-center">
+        <img id="modalImage-{{ event_slug }}" src="" class="img-fluid rounded modal-img" />
+        <i class="bx bx-chevron-left nav-arrow left-arrow" onclick="prevImage('{{ event_slug }}')"></i>
+        <i class="bx bx-chevron-right nav-arrow right-arrow" onclick="nextImage('{{ event_slug }}')"></i>
+        <span id="imageCount-{{ event_slug }}" class="image-counter"></span>
+      </div>
+    </div>
   </div>
 </div>
