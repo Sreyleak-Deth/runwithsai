@@ -1,10 +1,10 @@
 ---
-layout: event_detail 
+layout: event_detail
 event_title: Run By Heart – 2nd Edition
-short_description: " Run by Heart Actual Run៖ ជាការកម្មវិធីរត់ពិសេសដែលមានចម្ងាយ ៤០០ ម៉ែត្រ ដែលធ្វើនៅ ពហុកីឡដ្ឋានជាតិអូឡាំពិក។"
-date: 2025-05-31
+short_description: ' Run by Heart Actual Run៖ ជាការកម្មវិធីរត់ពិសេសដែលមានចម្ងាយ ៤០០ ម៉ែត្រ ដែលធ្វើនៅ ពហុកីឡដ្ឋានជាតិអូឡាំពិក។'
+date: 'Sat May 31 2025 07:00:00 GMT+0700 (Indochina Time)'
 year: 2025
-slug: "run-by-heart-2nd-edition"
+slug: run-by-heart-2nd-edition
 section: Charity Projects
 images:
   - media/events/run_by_heart/run_by_heart1.jpg
@@ -18,9 +18,10 @@ images:
   - media/events/run_by_heart/run_by_heart9.jpg
 ---
 
-**"RUN BY HEART"** គឺជាយុទ្ធនាការរត់សប្បុរសធម៌ ដែលបង្កើតឡើងក្នុងគោលបំណងរៃអង្គាសថវិកាសម្រាប់សប្បុរសធម៌ និងលើកកម្ពស់ការថែទាំសុខភាពតាមរយៈការរត់នេះ។ នេះជាលើកទី២ហើយដែល នឹងប្រព្រឹត្តិទៅនៅ **ថ្ងៃទី៣១ ខែឧសភា ឆ្នាំ២០២៥** នៅពហុកីឡដ្ឋានជាតិអូឡាំពិក។ 
+ព្រឹត្តិការណ៍ **"រត់ដោយបេះដូង លើកទី២ ឆ្នាំ២០២៥"** រៀបចំឡើងក្នុងគោលបំណងរៃអង្គាសថវិកាសប្បុរសធម៌ សម្រាប់អង្គការសាលារៀនទន្សាយក្នុងបេសកម្មថែទាំ និងបង្ហាត់បង្រៀន ទៅដល់កុមារអូទីហ្សឹម (Autism) និងលើកកម្ពស់ការថែទាំសុខភាពតាមរយៈការរត់។
 
 ថវិកាទាំងអស់ ដែលបានមកពីការចុះឈ្មោះនឹងត្រូវបរិច្ចាគទៅអង្គការសាលារៀនទន្សាយ ដែលជាអង្គការមើលថែទាំ និងបណ្តុះបណ្តាលកុមារអូទីស្សឹម។ យើងជឿជាក់ថាព្រឹត្តិការណ៍នេះ នឹងដើរតួនាទីក្នុងការជំរុញផ្នត់គំនិតនៃការរួមចំណែកក្នុងសកម្មភាពសង្គមផងដែរ។
+
 
 <div class="donate-container">
   <div>
@@ -44,7 +45,7 @@ images:
 
 📌 សូមបញ្ជាក់ថា រាល់ការបរិច្ចាគលើសពី **៥០ ដុល្លារ** សូមដាក់ **“ឈ្មោះ និងលេខទូរស័ព្ទ”** របស់អ្នកនៅក្នុង **“Remark”** ដើម្បីក្រុមការងារទទួលបានលេខទំនាក់ទំនង ដើម្បីផ្ញើ លិខិតអញ្ជើញចូលរួមកម្មវិធី។
 
-📌 សូមចូលទៅក្នុងក្រុមតេឡេក្រាមរបស់យើង បន្ទាប់ពីអ្នកបានបរិច្ចាគទៅសាលាទន្សាយរួច។ ក្រុមការងារយើងខ្ញុំនឹងសម្របសម្រួលដល់លោកអ្នកក្នុងកម្មវិធី។ តំណភ្ជាប់ក្រុម Telegram៖…
+📌 សូមចូលទៅក្នុងក្រុមតេឡេក្រាមរបស់យើង បន្ទាប់ពីអ្នកបានបរិច្ចាគទៅសាលាទន្សាយរួច។ ក្រុមការងារយើងខ្ញុំនឹងសម្របសម្រួលដល់លោកអ្នកក្នុងកម្មវិធី។ តំណភ្ជាប់ក្រុម <a href='https://t.me/+3JLMGjnn1wY0YWI1' target="_blank" rel="noopener">Telegram</a>
 
 - ការផ្តល់ជូនសម្រាប់អ្នកចូលរួម
   - អាវយឺតកម្មវិធីពិសេស **ចំនួន ០១**
@@ -58,18 +59,21 @@ images:
 **2. RUN BY HEART VIRTUAL RUN**: គឺជាកម្មវិធីដែលអ្នកចូលរួមអាចរត់ពីចម្ងាយ ដែលអាចរត់ពីកន្លែងណាក៏បាន។ ពួកគេជ្រើសរើសប្រភេទមួយ តាមដានការរត់របស់ពួកគេដោយប្រើ **Strava** និងទទួលបានមេដាយបញ្ចប់នៅពេលបញ្ចប់។
 
 
-- **Running Category**: 10KM / 21KM  (To be discussed) 
-- **Running Ticket Fee**: 10KM = 15$ , 21KM = 20$ (To be discussed) 
-- **Date**: 1st May - 1st June 2025
-- **Location**: Anywhere / National Olympic Stadium 
-- **To register**: buy the ticket via <a href='https://www.bookme.plus/t/events/run-by-heart-2nd-edition' target="_blank" rel="noopener">BookMe+ App</a> or <a href='https://runwithsai.com' target="_blank" rel="noopener">runwithsai.com</a> website
+- **ប្រភេទវិញ្ញាសា**: 6KM & 21KM
+- **តម្លៃសំបុត្រ**: 6KM = 20$ , 21KM = 20$
+- **កាលបរិច្ឆេទ**: ១ ឧសភា - ៣១ ឧសភា ២០២៥
+- **ទីតាំងរត់**: រត់ពីចម្ងាយ ឬពហុកីឡដ្ឋានជាតិអូឡាំពិក 
+- **ចុះឈ្មោះតាម**: buy the ticket via <a href='https://www.bookme.plus/t/events/run-by-heart-2nd-edition' target="_blank" rel="noopener">BookMe+ App</a> or <a href='https://runwithsai.com' target="_blank" rel="noopener">runwithsai.com</a> website
 
 
-📌 RUNNING PACKAGES:
-  - Memorable **T-shirt** of “Run By Heart”
-  - **Medal Finisher**
+📌 កញ្ចប់រត់:
+  - **អាវអនុស្សាវរីយ៍** “Run By Heart”
+  - **មេដាយ** “Run By Heart”
   
-📌 AGE CATEGORIES: Participants of all categories must be **13 years** of age or older on race day
+📌 លក្ខខណ្ឌអាយុ: 
+  - អ្នកចូលរួម ត្រូវមានអាយុចាប់ពី **13ឆ្នាំ** ឡើងទៅ គិតត្រឹមថ្ងៃកម្មវិធី
+  - អ្នកចូលរួមដែលមានអាយុក្រោម **13ឆ្នាំ** តម្រូវឱ្យមានអាណាព្យាបាលចូលរួម
+  
 
 
 
@@ -103,7 +107,7 @@ All proceeds from the registration fees will be donated to Rabbit School, a scho
 
 📌 Please note that for all donations over **$50**, please put your **"name and phone number"** in the **"Remark"** so that the team can contact you to send an invitation to the program.
 
-Please join our telegram group after you donated to Rabbit School. Our team will introduce and facilitate you to the program. Telegram group link: …
+Please join our telegram group after you donated to Rabbit School. Our team will introduce and facilitate you to the program. Telegram group link:  <a href='https://t.me/+3JLMGjnn1wY0YWI1' target="_blank" rel="noopener">Join Telegram</a>
 
 - RUNNING PACKAGES: 
   - Memorable T-shirt of “Run By Heart” 
@@ -128,4 +132,7 @@ Please join our telegram group after you donated to Rabbit School. Our team will
   - Memorable **T-shirt** of “Run By Heart”
   - **Medal Finisher**
   
-📌 AGE CATEGORIES: Participants of all categories must be **13 years** of age or older on race day
+📌 AGE CATEGORIES: 
+  - Participants of all categories must be **13 years** of age or older on race day
+  - Participants under **13 years** of age are required to register under parental restrictions as a group category.
+
