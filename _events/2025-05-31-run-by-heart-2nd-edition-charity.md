@@ -6,19 +6,11 @@ date: 'Sat May 31 2025 07:00:00 GMT+0700 (Indochina Time)'
 year: 2025
 slug: run-by-heart-2nd-edition
 section: Charity Projects
-images:
-  - media/events/run_by_heart/run_by_heart1.jpg
-  - media/events/run_by_heart/run_by_heart2.jpg
-  - media/events/run_by_heart/run_by_heart3.jpg
-  - media/events/run_by_heart/run_by_heart4.jpg
-  - media/events/run_by_heart/run_by_heart5.jpg
-  - media/events/run_by_heart/run_by_heart6.jpg
-  - media/events/run_by_heart/run_by_heart7.jpg
-  - media/events/run_by_heart/run_by_heart8.jpg
-  - media/events/run_by_heart/run_by_heart9.jpg
+images: >-
+  media/events/run_by_heart/run_by_heart1.jpg,media/events/run_by_heart/run_by_heart2.jpg,media/events/run_by_heart/run_by_heart3.jpg,media/events/run_by_heart/run_by_heart4.jpg,media/events/run_by_heart/run_by_heart5.jpg,media/events/run_by_heart/run_by_heart6.jpg,media/events/run_by_heart/run_by_heart7.jpg,media/events/run_by_heart/run_by_heart8.jpg,media/events/run_by_heart/run_by_heart9.jpg
 ---
 
-ព្រឹត្តិការណ៍ **"រត់ដោយបេះដូង លើកទី២ ឆ្នាំ២០២៥"** រៀបចំឡើងក្នុងគោលបំណងរៃអង្គាសថវិកាសប្បុរសធម៌ សម្រាប់អង្គការសាលារៀនទន្សាយក្នុងបេសកម្មថែទាំ និងបង្ហាត់បង្រៀន ទៅដល់កុមារអូទីហ្សឹម (Autism) និងលើកកម្ពស់ការថែទាំសុខភាពតាមរយៈការរត់។
+ព្រឹត្តិការណ៍ **"រត់ដោយបេះដូង លើកទី២ ឆ្នាំ២០២៥"** រៀបចំឡើងក្នុងគោលបំណងរៃអង្គាសថវិកាសប្បុរសធម៌ សម្រាប់អង្គការសាលារៀនទន្សាយក្នុងបេសកម្មថែទាំ និងបង្ហាត់បង្រៀន ទៅដល់កុមារអូទីហ្សឹម **(Autism)** និងលើកកម្ពស់ការថែទាំសុខភាពតាមរយៈការរត់។
 
 ថវិកាទាំងអស់ ដែលបានមកពីការចុះឈ្មោះនឹងត្រូវបរិច្ចាគទៅអង្គការសាលារៀនទន្សាយ ដែលជាអង្គការមើលថែទាំ និងបណ្តុះបណ្តាលកុមារអូទីស្សឹម។ យើងជឿជាក់ថាព្រឹត្តិការណ៍នេះ នឹងដើរតួនាទីក្នុងការជំរុញផ្នត់គំនិតនៃការរួមចំណែកក្នុងសកម្មភាពសង្គមផងដែរ។
 
@@ -37,15 +29,15 @@ images:
 
 **1. Run by Heart Actual Run**៖ ជាការកម្មវិធីរត់ពិសេសដែលមានចម្ងាយ **៤០០ ម៉ែត្រ** ដែលធ្វើនៅ **ពហុកីឡដ្ឋានជាតិអូឡាំពិក**។ អ្នកចូលរួមត្រូវចាប់ដៃគូជាមួយកុមារអូទីហ្សឹមដើម្បីរត់ជុំវិញទីលានមួយជុំ។ អ្នកបញ្ចប់ការរត់ទាំងអស់ នឹងទទួលបានមេដាយអនុស្សាវរីយ៍។
 
-- **កាលបរិច្ឆេទ**៖ 31 ឧសភា 2025, 5:00PM
+- **កាលបរិច្ឆេទ**៖ ៣១ ឧសភា ២០២៥, ៥:00PM
 - **ទីតាំង**៖ ពហុកីឡដ្ឋានជាតិអូឡាំពិក
-- **អ្នកចូលរួម**៖ 20០នាក់
-- **រយៈចម្ងាយ**៖ 400m 
-- **ចុះឈ្មោះ**៖ បរិច្ចាគទៅកាន់អង្គការសាលារៀនទន្សាយចាប់ពី **50$** ក្នុងម្នាក់ ដើម្បីចូលរួមរត់ជាមួយនឹងកុមារអូទីហ្សឹមនៅទីតាំងរត់ផ្ទាល់។ 
+- **អ្នកចូលរួម**៖ ២0០នាក់
+- **រយៈចម្ងាយ**៖ ៤00m 
+- **ចុះឈ្មោះ**៖ បរិច្ចាគទៅកាន់អង្គការសាលារៀនទន្សាយចាប់ពី **៥0$** ក្នុងម្នាក់ ដើម្បីចូលរួមរត់ជាមួយនឹងកុមារអូទីហ្សឹមនៅទីតាំងរត់ផ្ទាល់។ 
 
 📌 សូមបញ្ជាក់ថា រាល់ការបរិច្ចាគលើសពី **៥០ ដុល្លារ** សូមដាក់ **“ឈ្មោះ និងលេខទូរស័ព្ទ”** របស់អ្នកនៅក្នុង **“Remark”** ដើម្បីក្រុមការងារទទួលបានលេខទំនាក់ទំនង ដើម្បីផ្ញើ លិខិតអញ្ជើញចូលរួមកម្មវិធី។
 
-📌 សូមចូលទៅក្នុងក្រុមតេឡេក្រាមរបស់យើង បន្ទាប់ពីអ្នកបានបរិច្ចាគទៅសាលាទន្សាយរួច។ ក្រុមការងារយើងខ្ញុំនឹងសម្របសម្រួលដល់លោកអ្នកក្នុងកម្មវិធី។ តំណភ្ជាប់ក្រុម <a href='https://t.me/+3JLMGjnn1wY0YWI1' target="_blank" rel="noopener">Telegram</a>
+📌 សូមចូលទៅក្នុងក្រុមតេឡេក្រាមរបស់យើង បន្ទាប់ពីអ្នកបានបរិច្ចាគទៅសាលាទន្សាយរួច។ ក្រុមការងារយើងខ្ញុំនឹងសម្របសម្រួលដល់លោកអ្នកក្នុងកម្មវិធី។ តំណភ្ជាប់ក្រុម <a href='https://t.me/+3JLMGjnn1wY0YWI1' target="_blank" rel="noopener">Join Telegram</a>
 
 - ការផ្តល់ជូនសម្រាប់អ្នកចូលរួម
   - អាវយឺតកម្មវិធីពិសេស **ចំនួន ០១**
@@ -59,8 +51,8 @@ images:
 **2. RUN BY HEART VIRTUAL RUN**: គឺជាកម្មវិធីដែលអ្នកចូលរួមអាចរត់ពីចម្ងាយ ដែលអាចរត់ពីកន្លែងណាក៏បាន។ ពួកគេជ្រើសរើសប្រភេទមួយ តាមដានការរត់របស់ពួកគេដោយប្រើ **Strava** និងទទួលបានមេដាយបញ្ចប់នៅពេលបញ្ចប់។
 
 
-- **ប្រភេទវិញ្ញាសា**: 6KM & 21KM
-- **តម្លៃសំបុត្រ**: 6KM = 20$ , 21KM = 20$
+- **ប្រភេទវិញ្ញាសា**: ៦KM & ២១KM
+- **តម្លៃសំបុត្រ**: ៦KM = ២0$ , ២១KM = ២0$
 - **កាលបរិច្ឆេទ**: ១ ឧសភា - ៣១ ឧសភា ២០២៥
 - **ទីតាំងរត់**: រត់ពីចម្ងាយ ឬពហុកីឡដ្ឋានជាតិអូឡាំពិក 
 - **ចុះឈ្មោះតាម**: buy the ticket via <a href='https://www.bookme.plus/t/events/run-by-heart-2nd-edition' target="_blank" rel="noopener">BookMe+ App</a> or <a href='https://runwithsai.com' target="_blank" rel="noopener">runwithsai.com</a> website
@@ -71,8 +63,8 @@ images:
   - **មេដាយ** “Run By Heart”
   
 📌 លក្ខខណ្ឌអាយុ: 
-  - អ្នកចូលរួម ត្រូវមានអាយុចាប់ពី **13ឆ្នាំ** ឡើងទៅ គិតត្រឹមថ្ងៃកម្មវិធី
-  - អ្នកចូលរួមដែលមានអាយុក្រោម **13ឆ្នាំ** តម្រូវឱ្យមានអាណាព្យាបាលចូលរួម
+  - អ្នកចូលរួម ត្រូវមានអាយុចាប់ពី **១៣ឆ្នាំ** ឡើងទៅ គិតត្រឹមថ្ងៃកម្មវិធី
+  - អ្នកចូលរួមដែលមានអាយុក្រោម **១៣ឆ្នាំ** តម្រូវឱ្យមានអាណាព្យាបាលចូលរួម
   
 
 
@@ -80,7 +72,7 @@ images:
 <hr style="margin-top: 40px; margin-bottom: 40px; border: 1px solid grey;"/>
 
 
-**"RUN BY HEART"** is a charity running campaign created to raise donations for charity and promote healthcare through running. This is the second edition, which will take place on **May 31, 2025**, at the Olympic National Stadium. 
+**"RUN BY HEART 2nd Edition, 2025"** is a charity running campaign created to raise donations for charity and promote healthcare through running.
 
 All proceeds from the registration fees will be donated to Rabbit School, a school dedicated to the care and training of children with autism. We believe that this event will also play a role in fostering a mindset of unity and social contribution.
 
@@ -121,8 +113,8 @@ Please join our telegram group after you donated to Rabbit School. Our team will
 **2. RUN BY HEART VIRTUAL RUN**: is a program where participants can run from anywhere. They choose a category, track their run using **Strava**, and receive a finisher medal upon completion.
 
 
-- **Running Category**: 10KM / 21KM  (To be discussed) 
-- **Running Ticket Fee**: 10KM = 15$ , 21KM = 20$ (To be discussed) 
+- **Running Category**: 6KM & 21KM  
+- **Running Ticket Fee**: 6KM = 20$ , 21KM = 20$ 
 - **Date**: 1st May - 31 May 2025
 - **Location**: Anywhere / National Olympic Stadium 
 - **To register**: buy the ticket via <a href='https://www.bookme.plus/t/events/run-by-heart-2nd-edition' target="_blank" rel="noopener">BookMe+ app</a> or <a href='https://runwithsai.com' target="_blank" rel="noopener">runwithsai.com</a> website
@@ -135,4 +127,3 @@ Please join our telegram group after you donated to Rabbit School. Our team will
 📌 AGE CATEGORIES: 
   - Participants of all categories must be **13 years** of age or older on race day
   - Participants under **13 years** of age are required to register under parental restrictions as a group category.
-
